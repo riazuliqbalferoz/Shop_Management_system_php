@@ -1,0 +1,61 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.top-nav {
+  background-color: #3c8dad;
+}
+.top-nav .disabled {
+  color: white;
+}
+.top-nav a {
+  color: white;
+}
+.top-nav .right i {
+  background-color: rgba(255, 255, 255, 0.322);
+  font-size: 0.8rem;
+  width: 30px;
+  padding: 10px;
+  height: 30px;
+}
+.top-nav .right i:hover {
+  background-color: rgba(255, 255, 255, 0.541);
+}
+.top-nav nav {
+  background-color: white;
+  font-weight: 500;
+}
+.top-nav nav .nav-link {
+  color: black 100%;
+}
+
+header .carousel-inner img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+header .carousel-caption {
+  top: 55%;
+  transform: translateY(-50%);
+}
+
+footer {
+  background-color: black;
+  font-weight: normal;
+}
+footer .social-icon i {
+  padding: 10px;
+  min-width: 35px;
+  max-height: 35px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid white;
+  font-size: 14px;
+}
+footer hr {
+  background-color: white;
+}
+footer .bottom-footer {
+  font-size: 0.9rem;
+}/*# sourceMappingURL=home.css.map */

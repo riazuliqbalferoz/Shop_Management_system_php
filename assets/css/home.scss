@@ -1,0 +1,72 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-nav{
+    background-color: #3c8dad;
+    .disabled{
+        color: white
+    }
+    a{
+        color: white;
+    }
+    .right{
+        i{
+            background-color: rgba(255, 255, 255, 0.322);
+            font-size: .8rem;
+            width: 30px;
+            padding: 10px;
+            height: 30px;
+        }
+        i:hover{
+            background-color: rgba(255, 255, 255, 0.541);
+        }
+    }
+
+    nav{
+        background-color: white;
+        font-weight: 500;
+        .nav-link{
+            color: black 100%;
+        }
+    }
+}
+
+header{
+    .carousel-inner{
+        img{
+             object-fit: cover;
+             object-position: center;
+        }
+    }
+    .carousel-caption {
+        top: 55%;
+        transform: translateY(-50%);
+    }
+}
+
+
+// footer
+footer{
+    background-color: black;
+    font-weight: normal;
+
+    .social-icon{
+        i{
+            padding: 10px;
+            min-width: 35px;
+            max-height: 35px;
+            text-align: center;
+            text-decoration: none;
+            border: 1px solid white;
+            font-size: 14px;
+        }
+    }
+    hr{
+        background-color: white;
+    }
+
+    .bottom-footer{
+        font-size: .9rem;
+    }
+}

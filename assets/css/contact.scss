@@ -1,0 +1,84 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-nav{
+    background-color: #3c8dad;
+    .disabled{
+        color: white
+    }
+    a{
+        color: white;
+    }
+    .right{
+        i{
+            background-color: rgba(255, 255, 255, 0.322);
+            font-size: .8rem;
+            width: 30px;
+            padding: 10px;
+            height: 30px;
+        }
+        i:hover{
+            background-color: rgba(255, 255, 255, 0.541);
+        }
+    }
+
+    nav{
+        background-color: white;
+        font-weight: 500;
+        .nav-link{
+            color: black 100%;
+        }
+    }
+}
+
+main{
+    background-image: url('../image/img-2.jpg');
+    height: 100%;
+    width: 100%;
+
+    p{
+        font-size:1.2rem;
+        color: rgb(98, 98, 98);
+    }
+
+    .row{
+        .bottom-border{
+            border-bottom: 3px solid black;
+            width: 8vh;
+        }
+        p{
+            color: rgb(98, 98, 98);
+            font-size: 1rem;
+        }
+        .form-group{
+            label{
+                color: rgb(98, 98, 98);
+            }
+        }
+    }
+}
+
+footer{
+    background-color: black;
+    font-weight: normal;
+
+    .social-icon{
+        i{
+            padding: 10px;
+            min-width: 35px;
+            max-height: 35px;
+            text-align: center;
+            text-decoration: none;
+            border: 1px solid white;
+            font-size: 14px;
+        }
+    }
+    hr{
+        background-color: white;
+    }
+
+    .bottom-footer{
+        font-size: .9rem;
+    }
+}
